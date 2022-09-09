@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Timegame">
+
+    <com.airbnb.lottie.LottieAnimationView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop"
+        app:lottie_autoPlay="true"
+        app:lottie_loop="true"
+        app:lottie_rawRes="@raw/footspace_back" />
+
+    <TextView
+        android:id="@+id/tv_pnum"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#ffffff"
+        android:text="0.00"
+        android:textSize="60sp"
+
+        app:layout_constraintBottom_toBottomOf="parent"
+
+        app:layout_constraintEnd_toEndOf="parent"
+
+        app:layout_constraintHorizontal_bias="0.853"
+
+        app:layout_constraintStart_toStartOf="parent"
+
+        app:layout_constraintTop_toTopOf="parent"
+
+        app:layout_constraintVertical_bias="0.552" />
+
+    <TextView
+
+        android:id="@+id/tv_random6"
+
+        android:layout_width="wrap_content"
+
+        android:layout_height="wrap_content"
+
+        android:textColor="#ffffff"
+
+        android:text="목표"
+
+        android:textSize="60sp"
+
+        app:layout_constraintBottom_toTopOf="@+id/tv_pnum"
+
+        app:layout_constraintEnd_toEndOf="@+id/tv_pnum"
+
+        app:layout_constraintHorizontal_bias="1.0"
+
+        app:layout_constraintStart_toStartOf="@+id/tv_pnum"
+
+        app:layout_constraintTop_toTopOf="parent"
+
+        app:layout_constraintVertical_bias="0.564" />
+
+    <TextView
+
+        android:id="@+id/tv_timer"
+
+        android:layout_width="wrap_content"
+
+        android:textColor="#ffffff"
+
+        android:layout_height="wrap_content"
+
+        android:layout_marginStart="60dp"
+
+        android:text="0.00"
+
+        android:textSize="60sp"
+
+        app:layout_constraintBottom_toBottomOf="parent"
+
+        app:layout_constraintStart_toStartOf="parent"
+
+        app:layout_constraintTop_toTopOf="parent"
+
+        app:layout_constraintVertical_bias="0.552" />
+
+    <TextView
+
+        android:id="@+id/tv_people"
+
+        android:layout_width="wrap_content"
+
+        android:layout_height="wrap_content"
+
+        android:textColor="#ffffff"
+
+        android:text="참가자 1"
+
+        android:textSize="60sp"
+
+        app:layout_constraintBottom_toTopOf="@+id/tv_timer4"
+
+        app:layout_constraintEnd_toEndOf="parent"
+
+        app:layout_constraintHorizontal_bias="0.497"
+
+        app:layout_constraintStart_toStartOf="parent"
+
+        app:layout_constraintTop_toTopOf="parent"
+
+        app:layout_constraintVertical_bias="0.589" />
+
+    <TextView
+
+        android:id="@+id/tv_timer4"
+
+        android:layout_width="wrap_content"
+
+        android:layout_height="wrap_content"
+
+        android:textColor="#ffffff"
+
+        android:text="현재"
+
+        android:textSize="60sp"
+
+        app:layout_constraintBottom_toTopOf="@+id/tv_timer"
+
+        app:layout_constraintEnd_toEndOf="@+id/tv_timer"
+
+        app:layout_constraintHorizontal_bias="0.0"
+
+        app:layout_constraintStart_toStartOf="@+id/tv_timer"
+
+        app:layout_constraintTop_toTopOf="parent"
+
+        app:layout_constraintVertical_bias="0.564" />
+
+    <Button
+
+        android:id="@+id/btn_start"
+
+        android:layout_width="wrap_content"
+
+        android:layout_height="wrap_content"
+
+        android:text="시작/정지"
+        android:textColor="#373636"
+        android:background="@drawable/game_button2"
+
+        android:textSize="48sp"
+
+        app:layout_constraintBottom_toBottomOf="parent"
+
+        app:layout_constraintEnd_toEndOf="parent"
+
+        app:layout_constraintStart_toStartOf="parent"
+
+        app:layout_constraintTop_toBottomOf="@+id/tv_pnum"
+
+        app:layout_constraintVertical_bias="0.811" />
+
+    <TextView
+
+        android:id="@+id/tv_point"
+
+        android:layout_width="wrap_content"
+
+        android:layout_height="wrap_content"
+
+        android:textSize="48sp"
+
+        app:layout_constraintBottom_toBottomOf="parent"
+
+        app:layout_constraintEnd_toEndOf="parent"
+
+        app:layout_constraintHorizontal_bias="0.498"
+
+        app:layout_constraintStart_toStartOf="parent"
+
+        app:layout_constraintTop_toTopOf="parent"
+
+        app:layout_constraintVertical_bias="0.702" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

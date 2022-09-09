@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/splash_bg_gradient"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:weightSum="1">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="MENU"
+        android:textColor="#373636"
+        android:textSize="50dp"
+        android:textStyle="bold"/>
+
+    <View
+        android:layout_weight="0.1"
+        android:layout_width="0dp"
+        android:layout_height="0dp"/>
+
+    <Button
+        android:id="@+id/btn_game"
+        android:layout_width="300dp"
+        android:layout_height="60dp"
+        android:background="@drawable/corner_round"
+        android:text="밥값 내기"
+        android:textColor="#373636"
+        android:textStyle="bold"
+        android:textSize="30dp" />
+
+    <Button
+        android:id="@+id/btn_notice"
+        android:layout_width="300dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/corner_round"
+        android:text="학사 공지"
+        android:textColor="#373636"
+        android:textStyle="bold"
+        android:textSize="30dp" />
+
+    <Button
+        android:layout_marginTop="20dp"
+        android:id="@+id/btn_schoolmeal"
+        android:layout_width="300dp"
+        android:layout_height="60dp"
+        android:background="@drawable/corner_round"
+        android:text="학식"
+        android:textStyle="bold"
+        android:textColor="#373636"
+        android:textSize="30dp" />
+
+    <Button
+        android:layout_marginTop="20dp"
+        android:id="@+id/btn_freeboard"
+        android:layout_width="300dp"
+        android:layout_height="60dp"
+        android:background="@drawable/corner_round"
+        android:text="자유게시판"
+        android:textStyle="bold"
+        android:textColor="#373636"
+        android:textSize="30dp" />
+
+</LinearLayout>

@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.navigation" >
+
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.AppCompat.NoActionBar" >
+        <activity
+            android:name=".Easter_Egg"
+            android:exported="false" />
+        <activity
+            android:name=".How_to_play"
+            android:exported="false" />
+        <activity
+            android:name=".Game_menu_effect"
+            android:exported="false" />
+<!--        <activity-->
+<!--            android:name=".Test1234"-->
+<!--            android:exported="false" />-->
+        <activity
+            android:name=".Banner"
+            android:exported="false" />
+        <activity
+            android:name=".Fragment_MainActivity"
+            android:exported="false" />
+        <activity
+            android:name=".CommentMainActivity"
+            android:exported="false"
+            android:windowSoftInputMode="adjustNothing" />
+        <activity
+            android:name=".Timegame"
+            android:exported="false" />
+        <activity
+            android:name=".Numberball"
+            android:exported="false" />
+        <activity
+            android:name=".Dice"
+            android:exported="false" />
+        <activity
+            android:name=".Coin"
+            android:exported="false" />
+        <activity
+            android:name=".Bottlel"
+            android:exported="false" />
+        <activity
+            android:name=".Randomgame"
+            android:exported="false" />
+        <activity
+            android:name=".MapActivity"
+            android:exported="true" />
+        <activity
+            android:name=".ChinaFood"
+            android:exported="true"/>
+        <activity
+            android:name=".KoreanFood"
+            android:exported="true"/>
+        <activity
+            android:name=".JapanFood"
+            android:exported="true"/>
+        <activity
+            android:name=".WesternFood"
+            android:exported="true"/>
+        <activity
+            android:name=".SnackBar"
+            android:exported="true"/>
+        <activity
+            android:name=".MainActivity"
+            android:exported="true" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <meta-data
+            android:name="com.naver.maps.map.CLIENT_ID"
+            android:value="j0prkubkyo" />
+    </application>
+
+</manifest>
